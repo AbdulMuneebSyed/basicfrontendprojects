@@ -1,0 +1,133 @@
+body{
+    background: rgb(255,165,0);
+background: radial-gradient(circle, rgba(255,165,0,1) 0%, rgba(254,216,177,1) 83%);
+}
+.container{
+    height: 100vw;
+    width: 100vw;
+    overflow-x: none;
+    /* background-color: rgba(255, 255, 255, 0.719); */
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navlist{                                
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+nav{
+    width: 100vw;
+}
+.navcontainer{
+    background: rgb(254,216,177);
+background: linear-gradient(90deg, rgba(254,216,177,1) 0%, rgba(255,165,0,1) 70%);
+    display: flex;
+    align-items: center;
+    
+    min-height: 100px;
+}
+.logo{
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    /* margin-left: 20px; */
+    border-color: black;
+    /* border: 10px; */
+    background: rgb(255,165,0);
+background: linear-gradient(90deg, rgba(255,165,0,1) 0%, rgba(254,216,177,1) 81%);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50pc;
+    
+}
+.navside{
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.nav_a{
+    text-decoration: none;
+    padding: 8px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(254, 216, 177, 1) 37%, rgba(254, 216, 177, 1) 81%);
+    border-radius: 30pc;
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.nav_a:hover {
+    background: orange; /* Override the background gradient on hover */
+}
+.contentbox{
+    min-height: 100pc;
+    padding: 10px;
+    border: 20px;
+    width: 80vw;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border-radius: 1pc;
+    background-color: orange;
+    border: black;
+}
+.cart{
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: stretch;
+    list-style: none;
+    background: rgb(254,216,177);
+background: linear-gradient(90deg, rgba(254,216,177,1) 37%, rgba(254,216,177,1) 81%);
+    border-radius: 15px;
+    
+}
+.cart_text{
+    font: 1.2rem "Fira Sans", sans-serif;
+}
+.img_cart{
+    border-radius: 20px;
+}
+.h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerbox{
+    display: flexbox;
+    justify-content: space-between;
+    align-self: center;
+    min-height: 100px;
+    background: rgb(255,165,0);
+background: linear-gradient(90deg, rgba(255,165,0,1) 19%, rgba(254,216,177,1) 85%);
+
+}
+.footerbox2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding-top: 10px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+.contact{
+    min-height: 100pc;
+    width: 80vw ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: orange;
+    border-radius: 20px;
+}
